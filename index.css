@@ -36,8 +36,6 @@ nav {
   border-bottom: 1px solid rgba(35, 31, 32, .19);
 }
 
-
-
 .content {
   display: flex;
   flex-direction: column;
@@ -45,9 +43,15 @@ nav {
   align-items: center;
 }
 
-.content>form {
+.search-div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.search-filter > img {
+  width: 25px;
+  height: 25px;
+  fill: grey;
 }
 
 .location {
@@ -58,7 +62,7 @@ nav {
 }
 
 #map {
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 
@@ -66,7 +70,8 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  align-items: center;
+  justify-content: center;
   width: 50%;
   height: 200px;
   margin: 20px;
