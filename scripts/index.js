@@ -1,5 +1,5 @@
 // window.onload = (_) => {
-mapboxgl.accessToken = 'pk.eyJ1IjoibWF4aXN0aGVtb29zZSIsImEiOiJjbGU1eHpvM24wMDdxM3NtcmZvZm54c2NxIn0.T0BxaWkslBTuJCYPqxBZbA';
+mapboxgl.accessToken = secret;
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/maxisthemoose/cle97249j000i01qrk9by7zkf',
