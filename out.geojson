@@ -21,7 +21,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Andersen’s Danish Bakery & Restaurant",
+        "title": "Andersen's Danish Bakery & Restaurant",
         "description": "",
         "style": "(Bakery, Breakfast)",
         "hours": "9am to 6pm (closed Tue)",
@@ -39,7 +39,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Boathouse at Hendry’s Beach",
+        "title": "Boathouse at Hendry's Beach",
         "description": "",
         "style": "(Seafood, Brunch)",
         "hours": "7:30am to 9pm",
@@ -57,7 +57,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Bree’osh (Montecito)",
+        "title": "Bree'osh (Montecito)",
         "description": "",
         "style": "(Breakfast, Bakery)",
         "hours": "7am to 2pm",
@@ -93,7 +93,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Chad’s (formerly Sambo’s)",
+        "title": "Chad's (formerly Sambo's)",
         "description": "",
         "style": "(Breakfast, Brunch, Lunch)",
         "hours": "7am to 2:30pm",
@@ -183,7 +183,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Jeannine’s Bakery Restaurant",
+        "title": "Jeannine's Bakery Restaurant",
         "description": "",
         "style": "(Bakery, Breakfast)",
         "hours": "7:30am to 1:30pm",
@@ -237,7 +237,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Renaud’s Patisserie & Bistro",
+        "title": "Renaud's Patisserie & Bistro",
         "description": "",
         "style": "(Breakfast)",
         "hours": "7am to 4pm",
@@ -327,7 +327,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Augie’s of Santa Barbara",
+        "title": "Augie's of Santa Barbara",
         "description": "",
         "style": "(New Mexican, Tequila)",
         "hours": "4pm to 9pm (closed Wednesday)",
@@ -453,7 +453,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Ca’Dario",
+        "title": "Ca'Dario",
         "description": "",
         "style": "(Italian)",
         "hours": "Lunch & Dinner",
@@ -489,7 +489,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Finney’s Crafthouse",
+        "title": "Finney's Crafthouse",
         "description": "",
         "style": "(Gastropub)",
         "hours": "11am to 10pm (Friday, Saturday 11pm)",
@@ -525,7 +525,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Holdren’s Steak & Seafood",
+        "title": "Holdren's Steak & Seafood",
         "description": "",
         "style": "(Weekend Brunch, Lunch, Dinner)",
         "hours": "512 State Street",
@@ -722,7 +722,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Oliver’s",
+        "title": "Oliver's",
         "description": "",
         "style": "(Gluten Free, Vegetarian)",
         "hours": "5pm to 9pm (closed Monday)",
@@ -812,7 +812,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Rudy’s Mexican Food",
+        "title": "Rudy's Mexican Food",
         "description": "",
         "style": "(Breakfast, Lunch, Dinner)",
         "hours": "8am to 10pm",
@@ -830,7 +830,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Rusty’s Pizza Parlor",
+        "title": "Rusty's Pizza Parlor",
         "description": "",
         "style": "(sit down and delivery)",
         "hours": "Lunch and Dinner",
@@ -920,7 +920,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Shalhoob’s Funk Zone Patio",
+        "title": "Shalhoob's Funk Zone Patio",
         "description": "",
         "style": "(American, BBQ)",
         "hours": "11am to 8pm (closed Monday)",
@@ -1189,7 +1189,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Joe’s Café",
+        "title": "Joe's Café",
         "description": "",
         "style": "(American, Seafood)",
         "hours": "7:30am to 10pm",
@@ -1207,7 +1207,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Kyle’s Kitchen",
+        "title": "Kyle's Kitchen",
         "description": "",
         "style": "(American, Burgers)",
         "hours": "11am to 9pm",
@@ -1225,7 +1225,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Lilly’s Tacos",
+        "title": "Lilly's Tacos",
         "description": "",
         "style": "(Mexican)",
         "hours": "10am to 9pm (closed Tuesday)",
@@ -1315,7 +1315,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Mony’s Mexican Food",
+        "title": "Mony's Mexican Food",
         "description": "",
         "style": "(Mexican)",
         "hours": "10:30am to 3:30pm (Dinner Th Fr Sat, closed Sun)",

@@ -4,52 +4,63 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <title>Document</title>
 </head>
-<link href="./index.css" rel="stylesheet">
+<link href="./css/index.css" rel="stylesheet">
+<link href="./css/popup.css" rel="stylesheet">
+<link href="./css/colors.css" rel="stylesheet">
+<link href="./css/filter.css" rel="stylesheet">
 
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
-<link rel="stylesheet"
-  href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
 <link rel="stylesheet"
   href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css"
   type="text/css">
 
 <body>
-  <!-- <div class="main"> -->
-  <header>
-    <nav class="navbar">
-      <img src="./logo.svg">
-    </nav>
-  </header>
-  <div class="content">
-    <div class="search-div">
-      <div class="search-filter">
-        <!-- <img src="./filter.svg"> -->
-        
-        <div class="selections">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-      </div>
-      </div>
-      <label for="search">Search for a Restaurant</label>
-      <input type="search" id="search" class="search">
-    </div>
-    <div class="results">
 
-    </div>
+  <nav class="navbar">
+    <img src="./icons/logo.svg">
+  </nav>
+
+  <div class="content">
+    <h2 class="search-for">Seach for a Restaurant</h2>
     <div id="map"></div>
   </div>
+
+  <div class="popup-shader closed">
+    <div class="popup-container">
+      <div class="popup-header">
+        <img src="./icons/close.svg">
+        <p>CLOSE</p>
+      </div>
+      <div class="search-container">
+        <div class="filter-parent">
+          <img class="filter-image" src="./icons/filter.svg">
+          <div class="filter-container closed">
+            <ul class="filter-items">
+              <li>Filter 1</li>
+              <li>Filter 2</li>
+              <li>Filter 3</li>
+            </ul>
+          </div>
+        </div>
+        <input type="text" class="search-bar" placeholder="Search for a restaurant">
+      </div>
+      <div class="search-results"></div>
+    </div>
+  </div>
+
   <!-- </div> -->
 </body>
 
 
-<script src="data.js"></script>
-<script src="./index.js"></script>
+<script src="./scripts/data.js" defer></script>
+<script src="./scripts/index.js" defer></script>
+<script src="./scripts/popup.js" defer></script>
+<script src="./scripts/filter.js" defer></script>
+<script src="./scripts/appendResult.js" defer></script>
 
 </html>
