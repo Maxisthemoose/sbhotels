@@ -10,9 +10,8 @@ console.log(dinner);
  * 
  * @param {string} text 
  * @param {{
- * time: boolean;
- * style: string[],
- * 
+ * time: ("breakfast" | "lunch" | "dinner" | "brunch")[];
+ * style: string[];
  * }} filters 
  */
 function filter(text, filters) {

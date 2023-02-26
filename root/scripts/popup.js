@@ -3,12 +3,14 @@ const button = document.querySelector(".search-for");
 const closeButton = document.querySelector(".popup-header");
 const searchBar = document.querySelector(".search-bar");
 const results = document.querySelector(".search-results");
-const filterButton = document.querySelector(".filter-image");
+const filterButton = document.querySelector(".filter-image-container");
 const filterContainer = document.querySelector(".filter-container");
+// const filterText = document.querySelector(".filter-text");
 
 button.onclick = popupSwitchState;
 closeButton.onclick = popupSwitchState;
 filterButton.onclick = filterSwitchState;
+filterText.onclick = filterSwitchState;
 
 function popupSwitchState() {
   if (popup.classList.contains("open")) {
