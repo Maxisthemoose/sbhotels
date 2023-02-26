@@ -1,0 +1,17 @@
+.map-container {
+  width: 90vw;
+  height: 90vw;
+}
+
+.directions-control-instructions {
+  max-height: 50vw !important;
+}
+
+
+@media (max-width: 767.98px) {
+
+
+  .directions-control-instructions {
+    font-size: x-small !important;
+  }
+}
