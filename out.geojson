@@ -869,8 +869,8 @@
         "title": "Santa Barbara Shellfish Company",
         "description": "",
         "style": "(Seafood)",
-        "hours": "Stearns Wharf",
-        "address": "11am to 9pm",
+        "hours": "11am to 9pm",
+        "address": "Stearns Wharf",
         "website": "shellfishco.com"
       },
       "geometry": {

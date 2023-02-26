@@ -384,7 +384,7 @@ const data =
         "title": "Bluewater Grill",
         "description": "",
         "style": "(Seafood)",
-        "hours": "check for updated hours",
+        "hours": "Tue 4-9pm, Wed to Fri 12-9pm, Sat & Sun 11am-9pm",
         "address": "15 E. Cabrillo Blvd",
         "website": "bluewatergrill.com"
       },
@@ -527,9 +527,10 @@ const data =
       "properties": {
         "title": "Holdren's Steak & Seafood",
         "description": "",
-        "style": "(Weekend Brunch, Lunch, Dinner)",
-        "hours": "512 State Street",
-        "address": "holdrens.com/sb/"
+        "style": "(Brunch, Lunch, Dinner)",
+        "hours": "4pm to 9pm (Monday to Thursday), 11am to 9pm (Friday to Sunday)",
+        "address": "512 State Street",
+        "website": "holdrens.com/sb/"
       },
       "geometry": {
         "coordinates": [
@@ -832,10 +833,10 @@ const data =
       "properties": {
         "title": "Rusty's Pizza Parlor",
         "description": "",
-        "style": "(sit down and delivery)",
-        "hours": "Lunch and Dinner",
-        "address": "11am to midnight",
-        "website": "(805) 564-1111"
+        "style": "(Lunch and Dinner)",
+        "hours": "11am to 12am",
+        "address": "111 State St.",
+        "website": "rustyspizza.com"
       },
       "geometry": {
         "coordinates": [
@@ -869,8 +870,8 @@ const data =
         "title": "Santa Barbara Shellfish Company",
         "description": "",
         "style": "(Seafood)",
-        "hours": "Stearns Wharf",
-        "address": "11am to 9pm",
+        "hours": "11am to 9pm",
+        "address": "Stearns Wharf",
         "website": "shellfishco.com"
       },
       "geometry": {
@@ -1050,7 +1051,8 @@ const data =
         "description": "",
         "style": "(Beer Garden)",
         "hours": "11am to 9 pm (Fri & Sat until 11pm)",
-        "address": "11 Anacapa St. "
+        "address": "11 Anacapa St.",
+        "website": "sbbiergarten.com",
       },
       "geometry": {
         "coordinates": [
@@ -1102,7 +1104,7 @@ const data =
         "title": "Convivo @ SB Inn",
         "description": "",
         "style": "(Italian, Vegan)",
-        "hours": "Breakfast, Lunch, Dinner",
+        "hours": "7am to 9pm",
         "address": "901 E. Cabrillo Blvd.",
         "website": "convivorestaurant.com"
       },
@@ -1120,7 +1122,7 @@ const data =
         "title": "The Daisy",
         "description": "",
         "style": "(Gluten Free, Vegan, Mediterranean)",
-        "hours": "Lunch & Dinner (closed Monday)",
+        "hours": "11am to 9pm Wednesday to Saturday, 11am to 2pm Sun & Tues, (closed Monday)",
         "address": "1221 State St.",
         "website": "thedaisyrestaurant.com"
       },
