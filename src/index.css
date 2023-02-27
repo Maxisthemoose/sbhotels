@@ -19,6 +19,11 @@ body {
   padding-top: 114px;
 }
 
+#root, .App {
+  height: 100%;
+  width: 100%;
+}
+
 @media (max-width: 767.98px) {
   body {
     padding-top: 76px;
