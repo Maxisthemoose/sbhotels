@@ -23,12 +23,33 @@ export default class LocationDropdown extends React.Component {
   state = {
     data: this.props.type === "Restaurants" ? Restaurants : this.props.type === "Attractions" ? Attractions : Landmarks,
     open: false,
+    text_filter: "",
+    other_filters: {
+      time: {
+        breakfast: false,
+        lunch: false,
+        dinner: false,
+        brunch: false,
+      },
+      style: {},
+    },
   };
 
   setOpen = () => {
     this.setState(state => ({
       data: state.data,
+      text_filter: "",
+      other_filters: state.other_filters,
       open: !state.open,
+    }));
+  }
+
+  setTextFilter = (text) => {
+    this.setState(state => ({
+      open: state.open,
+      data: state.data,
+      other_filters: state.other_filters,
+      text_filter: text,
     }));
   }
 
@@ -37,10 +58,10 @@ export default class LocationDropdown extends React.Component {
       <div className="dropdown-parent">
 
         <div className="dropdown-header">
-          <h3 className="location-title">{this.props.type}</h3>
+          <h3 className="location-title title">{this.props.type}</h3>
           {this.state.open ? (
             <div className="search-items">
-              <input type="text" placeholder={`Search for ${this.props.type}`} />
+              <input onInput={(ev) => this.setTextFilter(ev.target.value)} type="text" placeholder={`Search for ${this.props.type}`} />
               <FilterIcon className="filter-icon" />
             </div>
           ) : ""}
@@ -54,11 +75,15 @@ export default class LocationDropdown extends React.Component {
               <div className="dropdown-content-container">
                 {
                   // Assume GEOJSON format for data
-                  this.state.data.map(location => (
+                  this.state.data.filter(v => v.properties.title.toLowerCase().includes(this.state.text_filter.toLowerCase())).map(location => (
                     <div className="location-container">
-                      <h4>{location.properties.title.length > 25 ? location.properties.title.slice(0, 25) : location.properties.title}</h4>
-                      <Button className="directions-button">Get Directions</Button>
-                      <Button className="info-button">More Info</Button>
+                      <h4 className="title">{location.properties.title}</h4>
+                      <Button onClick={() => {
+                        this.setOpen();
+                        this.props.directions.setOrigin("223 Castillo Blvd, Santa Barbara, California");
+                        this.props.directions.setDestination(location.properties.address + ", Santa Barbara, California");
+                      }} className="directions-button text">Directions</Button>
+                      <Button className="info-button text">Info</Button>
                     </div>
                   ))
                 }

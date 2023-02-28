@@ -5,6 +5,20 @@
   --sand: #D0CBBD;
   --rose-beige: #DEBEAB;
   --gray: 114, 119, 129;
+
+  --title-fonts: 'freight-big-pro', serif;
+  --text-fonts: 'freight-sans-pro', sans-serif;
+  --icon-fonts: "sb-icon", sans-serif;
+}
+
+.title {
+  font-family: var(--title-fonts);
+  font-weight: 400;
+}
+
+.text {
+  font-family: var(--text-fonts);
+  font-weight: 200;
 }
 
 body {
@@ -19,7 +33,8 @@ body {
   padding-top: 114px;
 }
 
-#root, .App {
+#root,
+.App {
   height: 100%;
   width: 100%;
 }

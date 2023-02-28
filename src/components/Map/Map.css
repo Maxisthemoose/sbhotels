@@ -11,6 +11,10 @@
     width: 85vw;
     height: 85vw;
   }
+
+  .mapboxgl-control-container {
+    display: none;
+  }
 }
 
 /* @media (min-width: 767.98px) {
@@ -18,3 +22,5 @@
     margin-top: 76px;
   }
 } */
+
+/* .mapboxgl-control-container */

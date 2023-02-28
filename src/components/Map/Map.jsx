@@ -2,17 +2,23 @@ import React from "react";
 import "./Map.css";
 import mapboxgl from "mapbox-gl";
 import 'mapbox-gl/dist/mapbox-gl.css';
-import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 import "@mapbox/mapbox-gl-directions/src/mapbox-gl-directions.css";
 mapboxgl.accessToken = "pk.eyJ1IjoibWF4aXN0aGVtb29zZSIsImEiOiJjbGU1eHpvM24wMDdxM3NtcmZvZm54c2NxIn0.T0BxaWkslBTuJCYPqxBZbA";
 export default class Map extends React.Component {
 
+  /**
+   * 
+   * @param {{ directions: Object }} props 
+   */
   constructor(props) {
     super(props);
+
+    const mq = window.matchMedia("(max-width: 767.98px)");
+
     this.state = {
       lng: -119.69714560273233,
       lat: 34.409949895900375,
-      zoom: 18,
+      zoom: mq.matches ? 16 : 18,
     }
 
     this.mapContainer = React.createRef();
@@ -27,12 +33,7 @@ export default class Map extends React.Component {
       zoom,
     });
 
-    const directions = new MapboxDirections({
-      accessToken: mapboxgl.accessToken,
-      interactive: false,
-      flyTo: true,
-    });
-    map.addControl(directions, "top-left");
+    map.addControl(this.props.directions, "top-left");
 
     map.on("load", (ev) => {
       map.on("click", (ev) => {
@@ -72,8 +73,8 @@ export default class Map extends React.Component {
         const directionDiv = document.createElement("a");
         directionDiv.innerText = "Get Directions";
         directionDiv.onclick = (ev) => {
-          directions.setOrigin("Brisas Del Mar, Santa Barbara, California, United States");
-          directions.setDestination(feature.properties.address + ", Santa Barbara, California, United States");
+          this.props.directions.setOrigin("Brisas Del Mar, Santa Barbara, California, United States");
+          this.props.directions.setDestination(feature.properties.address + ", Santa Barbara, California, United States");
         }
 
         popupDiv.appendChild(directionDiv);
