@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sbhotels/static/css/main.3f00aec6.css",
-    "main.js": "/sbhotels/static/js/main.3ad301fb.js",
+    "main.css": "/sbhotels/static/css/main.038f5fa6.css",
+    "main.js": "/sbhotels/static/js/main.b6917682.js",
     "static/media/logo.svg": "/sbhotels/static/media/logo.0687c43da0a0093cfe0f7cad946a10dd.svg",
     "index.html": "/sbhotels/index.html",
     "static/media/filterIcon.svg": "/sbhotels/static/media/filterIcon.e392822388d476c678496d34744ab6b1.svg",
     "static/media/dropdown.svg": "/sbhotels/static/media/dropdown.461bba4377fac4452e616038662fd8a2.svg",
-    "main.3f00aec6.css.map": "/sbhotels/static/css/main.3f00aec6.css.map",
-    "main.3ad301fb.js.map": "/sbhotels/static/js/main.3ad301fb.js.map"
+    "main.038f5fa6.css.map": "/sbhotels/static/css/main.038f5fa6.css.map",
+    "main.b6917682.js.map": "/sbhotels/static/js/main.b6917682.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f00aec6.css",
-    "static/js/main.3ad301fb.js"
+    "static/css/main.038f5fa6.css",
+    "static/js/main.b6917682.js"
   ]
 }
