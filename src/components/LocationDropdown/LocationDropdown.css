@@ -93,7 +93,7 @@ p {
 
 .filter-icon {
   grid-column: 2;
-  width: min(8vw, 33px);
+  width: min(8vw, 35px);
   height: min(8vw, 33px);
   cursor: pointer;
   padding: 8px;

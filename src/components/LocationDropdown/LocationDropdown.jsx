@@ -7,6 +7,7 @@ import { data as Landmarks } from "../../landmarks/landmarks";
 import { ReactComponent as DropdownArrow } from "../../icons/dropdown.svg";
 import { Button } from "react-bootstrap";
 import { ReactComponent as FilterIcon } from "../../icons/filterIcon.svg";
+import InfoPopup from "../InfoPopup/InfoPopup";
 
 export default class LocationDropdown extends React.Component {
 
@@ -24,22 +25,14 @@ export default class LocationDropdown extends React.Component {
     data: this.props.type === "Restaurants" ? Restaurants : this.props.type === "Attractions" ? Attractions : Landmarks,
     open: false,
     text_filter: "",
-    other_filters: {
-      time: {
-        breakfast: false,
-        lunch: false,
-        dinner: false,
-        brunch: false,
-      },
-      style: {},
-    },
+    popupData: null,
   };
 
   setOpen = () => {
     this.setState(state => ({
       data: state.data,
       text_filter: "",
-      other_filters: state.other_filters,
+      // other_filters: state.other_filters,
       open: !state.open,
     }));
   }
@@ -48,7 +41,7 @@ export default class LocationDropdown extends React.Component {
     this.setState(state => ({
       open: state.open,
       data: state.data,
-      other_filters: state.other_filters,
+      // other_filters: state.other_filters,
       text_filter: text,
     }));
   }
@@ -78,12 +71,17 @@ export default class LocationDropdown extends React.Component {
                   this.state.data.filter(v => v.properties.title.toLowerCase().includes(this.state.text_filter.toLowerCase())).map(location => (
                     <div className="location-container">
                       <h4 className="title">{location.properties.title}</h4>
+
                       <Button onClick={() => {
                         this.setOpen();
                         this.props.directions.setOrigin("223 Castillo Blvd, Santa Barbara, California");
                         this.props.directions.setDestination(location.properties.address + ", Santa Barbara, California");
                       }} className="directions-button text">Directions</Button>
-                      <Button className="info-button text">Info</Button>
+
+                      <Button onClick={() => this.setState(state => ({
+                        ...state,
+                        popupData: location,
+                      }))} className="info-button text">Info</Button>
                     </div>
                   ))
                 }
@@ -91,6 +89,13 @@ export default class LocationDropdown extends React.Component {
             )
             : ""
         }
+
+        {
+          this.state.popupData !== null ?
+            <InfoPopup data={this.state.popupData} />
+            : <></>
+        }
+
       </div>
     );
   }
