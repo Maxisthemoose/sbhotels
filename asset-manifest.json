@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/sbhotels/static/css/main.0ac93ac9.css",
-    "main.js": "/sbhotels/static/js/main.1cdc1127.js",
+    "main.css": "/sbhotels/static/css/main.e7e3263c.css",
+    "main.js": "/sbhotels/static/js/main.beca5049.js",
     "static/media/logo.svg": "/sbhotels/static/media/logo.0687c43da0a0093cfe0f7cad946a10dd.svg",
     "index.html": "/sbhotels/index.html",
-    "main.0ac93ac9.css.map": "/sbhotels/static/css/main.0ac93ac9.css.map",
-    "main.1cdc1127.js.map": "/sbhotels/static/js/main.1cdc1127.js.map"
+    "static/media/filterIcon.svg": "/sbhotels/static/media/filterIcon.e392822388d476c678496d34744ab6b1.svg",
+    "static/media/dropdown.svg": "/sbhotels/static/media/dropdown.461bba4377fac4452e616038662fd8a2.svg",
+    "main.e7e3263c.css.map": "/sbhotels/static/css/main.e7e3263c.css.map",
+    "main.beca5049.js.map": "/sbhotels/static/js/main.beca5049.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ac93ac9.css",
-    "static/js/main.1cdc1127.js"
+    "static/css/main.e7e3263c.css",
+    "static/js/main.beca5049.js"
   ]
 }
