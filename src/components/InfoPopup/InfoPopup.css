@@ -1,5 +1,5 @@
 .backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -11,10 +11,141 @@
   justify-content: center;
 }
 
+*>p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .popup-container {
   width: 100vw;
   max-width: 600px;
-  height: 75vh;
-  /* margin: 0 auto; */
+  /* height: fit-content; */
   background-color: white;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.location-content {
+  overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+  .popup-container {
+    border-radius: 0;
+  }
+}
+
+.popup-navbar {
+  width: min(600px, 100vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.location-name {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.close-button {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin: 10px;
+  margin-bottom: 0;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.2s ease-in;
+}
+
+.close-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--dark-teal);
+  padding: 10px;
+  margin: 5px;
+
+
+}
+
+.icon {
+  font-size: clamp(0.75rem, 1vw, 1rem);
+  color: inherit;
+}
+
+.close-button:hover {
+  color: var(--dark-teal);
+}
+
+.location-content {
+  height: max-content;
+}
+
+.location-preview {
+  width: 50%;
+}
+
+.location-content>p,
+.review-container>p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.review-container {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.review-container::before {
+  /* position: absolute; */
+  --star-color: #c7c7c7;
+  --star-background: rgb(255, 213, 46);
+  --percent: calc(var(--rating) / 5 * 100%);
+  left: 0;
+  right: 0;
+  content: "★★★★★";
+  color: transparent;
+  font-family: Times;
+  font-size: clamp(1.75rem, 1vw, 2.5rem);
+  background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.review {
+  position: relative;
+  isolation: isolate;
+  font-weight: bold;
+}
+
+.review::before {
+  height: 5rem;
+  width: fit-content;
+  font-family: serif;
+  content: open-quote;
+  font-weight: 900;
+  font-size: 7rem;
+  color: var(--sand);
+  position: absolute;
+  z-index: -1;
+  top: -3rem;
+  left: 0;
+}
+
+.review::after {
+  height: 5rem;
+  width: fit-content;
+  font-family: serif;
+  content: close-quote;
+  font-weight: 900;
+  font-size: 7rem;
+  color: var(--sand);
+  position: absolute;
+  z-index: -1;
+  bottom: 0.2rem;
+  right: 0;
 }

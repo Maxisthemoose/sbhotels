@@ -5,7 +5,7 @@
   --sand: #D0CBBD;
   --rose-beige: #DEBEAB;
   --gray: 114, 119, 129;
-
+  --gray-color: #727781;
   --title-fonts: 'freight-big-pro', serif;
   --text-fonts: 'freight-sans-pro', sans-serif;
   --icon-fonts: "sb-icon", sans-serif;
@@ -19,6 +19,11 @@
 .text {
   font-family: var(--text-fonts);
   font-weight: 200;
+}
+
+.icon {
+  font-family: var(--icon-fonts);
+  font-weight: 900;
 }
 
 body {

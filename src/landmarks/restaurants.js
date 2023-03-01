@@ -5,7 +5,7 @@ export const data =
       "properties": {
         "title": "Alessia Patisserie & Cafe",
         "description": "",
-        "style": "(Bakery, Breakfast, Lunch)",
+        "style": "Bakery, Breakfast, Lunch)",
         "hours": "7am to 3pm",
         "address": "134 E. Canon Perdido",
         "website": "alessiapatisserie.com"
@@ -23,7 +23,7 @@ export const data =
       "properties": {
         "title": "Andersen's Danish Bakery & Restaurant",
         "description": "",
-        "style": "(Bakery, Breakfast)",
+        "style": "Bakery, Breakfast)",
         "hours": "9am to 6pm (closed Tue)",
         "address": "1106 State St.",
         "website": "andersenssantabarbara.com"
@@ -41,7 +41,7 @@ export const data =
       "properties": {
         "title": "Boathouse at Hendry's Beach",
         "description": "",
-        "style": "(Seafood, Brunch)",
+        "style": "Seafood, Brunch)",
         "hours": "7:30am to 9pm",
         "address": "2981 Cliff Drive",
         "website": "boathousesb.com"
@@ -59,7 +59,7 @@ export const data =
       "properties": {
         "title": "Bree'osh (Montecito)",
         "description": "",
-        "style": "(Breakfast, Bakery)",
+        "style": "Breakfast, Bakery)",
         "hours": "7am to 2pm",
         "address": "1150 Coast Village Road",
         "website": "breeosh.com"
@@ -77,7 +77,7 @@ export const data =
       "properties": {
         "title": "Cajun Kitchen",
         "description": "",
-        "style": "(Creole, Cajun, Mexican)",
+        "style": "Creole, Cajun, Mexican)",
         "hours": "7am to 2pm",
         "address": "901 Chapala Street",
         "website": "cajunkitchencafe.com"
@@ -95,7 +95,7 @@ export const data =
       "properties": {
         "title": "Chad's (formerly Sambo's)",
         "description": "",
-        "style": "(Breakfast, Brunch, Lunch)",
+        "style": "Breakfast, Brunch, Lunch)",
         "hours": "7am to 2:30pm",
         "address": "216 W. Cabrillo Blvd",
         "website": "chadscafe.com"
@@ -113,7 +113,7 @@ export const data =
       "properties": {
         "title": "D'Angelo Bread",
         "description": "",
-        "style": "(Breakfast, Brunch, Bakery)",
+        "style": "Breakfast, Brunch, Bakery)",
         "hours": "7am to 2pm",
         "address": "25 W. Gutierrez St.",
         "website": "dangelobakery.com"
@@ -131,7 +131,7 @@ export const data =
       "properties": {
         "title": "Dawn Patrol",
         "description": "",
-        "style": "(Breakfast, Brunch)",
+        "style": "Breakfast, Brunch)",
         "hours": "7:30am to 2pm",
         "address": "324 State St.",
         "website": "dawnpatrolsb.com"
@@ -149,7 +149,7 @@ export const data =
       "properties": {
         "title": "Goat Tree @ Hotel Californian",
         "description": "",
-        "style": "(Breakfast)",
+        "style": "Breakfast)",
         "hours": "7am to 8pm",
         "address": "36 State St.",
         "website": "goattreecafe.com"
@@ -167,7 +167,7 @@ export const data =
       "properties": {
         "title": "Helena Avenue Bakery",
         "description": "",
-        "style": "(Breakfast, Bakery)",
+        "style": "Breakfast, Bakery)",
         "hours": "8am to 2pm",
         "address": "131 Anacapa Street",
         "website": "helenaavenuebakery.com"
@@ -185,7 +185,7 @@ export const data =
       "properties": {
         "title": "Jeannine's Bakery Restaurant",
         "description": "",
-        "style": "(Bakery, Breakfast)",
+        "style": "Bakery, Breakfast)",
         "hours": "7:30am to 1:30pm",
         "address": "1 State St.",
         "website": "jeannines.com"
@@ -203,7 +203,7 @@ export const data =
       "properties": {
         "title": "Lilac Patisserie",
         "description": "",
-        "style": "(Gluten Free, Breakfast, Brunch)",
+        "style": "Gluten Free, Breakfast, Brunch)",
         "hours": "8am to 3pm",
         "address": "1017 State St.",
         "website": "lilacpatisserie.com"
@@ -221,7 +221,7 @@ export const data =
       "properties": {
         "title": "On The Alley",
         "description": "",
-        "style": "(Breakfast, Brunch, Seafood)",
+        "style": "Breakfast, Brunch, Seafood)",
         "hours": "7am to 7pm",
         "address": "117 Harbor Way",
         "website": "onthealley.com"
@@ -239,7 +239,7 @@ export const data =
       "properties": {
         "title": "Renaud's Patisserie & Bistro",
         "description": "",
-        "style": "(Breakfast)",
+        "style": "Breakfast)",
         "hours": "7am to 4pm",
         "address": "1324 State St.",
         "website": "SB and Montecito"
@@ -257,7 +257,7 @@ export const data =
       "properties": {
         "title": "Savoy Café & Deli",
         "description": "",
-        "style": "(Gluten Free, Brunch, Vegan)",
+        "style": "Gluten Free, Brunch, Vegan)",
         "hours": "7am to 7:30pm (closed Sun)",
         "address": "24 W. Figueroa Street",
         "website": "thesavoycafe.com"
@@ -275,7 +275,7 @@ export const data =
       "properties": {
         "title": "Scarlett Begonia",
         "description": "",
-        "style": "(Breakfast, Brunch)",
+        "style": "Breakfast, Brunch)",
         "hours": "9am to 2pm",
         "address": "21 W. Victoria Street",
         "website": "scarlettbegonia.net/web"
@@ -293,7 +293,7 @@ export const data =
       "properties": {
         "title": "Aperitivo",
         "description": "",
-        "style": "(Italian, Wine Bar, Tapas)",
+        "style": "Italian, Wine Bar, Tapas)",
         "hours": "4:30 to 9pm (Wednesday to Saturday)",
         "address": "7 W. Haley St.",
         "website": "aperitivosb.com"
@@ -311,7 +311,7 @@ export const data =
       "properties": {
         "title": "Arigato Sushi",
         "description": "",
-        "style": "(Sushi, Japanese)",
+        "style": "Sushi, Japanese)",
         "hours": "5pm to 10pm",
         "address": "1225 State Street",
         "website": "arigatosb.com"
@@ -329,7 +329,7 @@ export const data =
       "properties": {
         "title": "Augie's of Santa Barbara",
         "description": "",
-        "style": "(New Mexican, Tequila)",
+        "style": "New Mexican, Tequila)",
         "hours": "4pm to 9pm (closed Wednesday)",
         "address": "700 State St.",
         "website": "augiessb.com"
@@ -347,7 +347,7 @@ export const data =
       "properties": {
         "title": "Barbareno",
         "description": "",
-        "style": "(American, BBQ)",
+        "style": "American, BBQ)",
         "hours": "5pm to 9pm (closed Monday & Tuesday)",
         "address": "205 W. Canon Perdido St.",
         "website": "barbareno.com"
@@ -365,7 +365,7 @@ export const data =
       "properties": {
         "title": "Bibi Ji",
         "description": "",
-        "style": "(Indian, Australian)",
+        "style": "Indian, Australian)",
         "hours": "4:30 to 8pm (closed Monday & Wednesday)",
         "address": "734 State St.",
         "website": "bibijisb.com"
@@ -383,7 +383,7 @@ export const data =
       "properties": {
         "title": "Bluewater Grill",
         "description": "",
-        "style": "(Seafood)",
+        "style": "Seafood)",
         "hours": "Tue 4-9pm, Wed to Fri 12-9pm, Sat & Sun 11am-9pm",
         "address": "15 E. Cabrillo Blvd",
         "website": "bluewatergrill.com"
@@ -401,7 +401,7 @@ export const data =
       "properties": {
         "title": "Bouchon",
         "description": "",
-        "style": "(Gluten Free, American, French)",
+        "style": "Gluten Free, American, French)",
         "hours": "5pm to 9pm",
         "address": "9 W. Victoria St.",
         "website": "bouchonsantabarbara.com"
@@ -419,7 +419,7 @@ export const data =
       "properties": {
         "title": "The Brewhouse",
         "description": "",
-        "style": "(American)",
+        "style": "American)",
         "hours": "11am to 9pm (Sunday), 12pm to 6pm (closed Monday)",
         "address": "229 W. Montecito St.",
         "website": "sbbrewhouse.com"
@@ -437,7 +437,7 @@ export const data =
       "properties": {
         "title": "Brophy Bros",
         "description": "",
-        "style": "(Seafood)",
+        "style": "Seafood)",
         "hours": "11am to 10pm",
         "address": "119 Harbor Way",
         "website": "brophybros.com"
@@ -455,7 +455,7 @@ export const data =
       "properties": {
         "title": "Ca'Dario",
         "description": "",
-        "style": "(Italian)",
+        "style": "Italian)",
         "hours": "Lunch & Dinner",
         "address": "37 E. Victoria St.",
         "website": "cadariorestaurants.com"
@@ -473,7 +473,7 @@ export const data =
       "properties": {
         "title": "Finch and Fork",
         "description": "",
-        "style": "(Breakfast, Brunch, Dinner)",
+        "style": "Breakfast, Brunch, Dinner)",
         "hours": "(closed Monday)",
         "address": "31 W. Carrillo St.",
         "website": "finchandforkrestaurant.com"
@@ -491,7 +491,7 @@ export const data =
       "properties": {
         "title": "Finney's Crafthouse",
         "description": "",
-        "style": "(Gastropub)",
+        "style": "Gastropub)",
         "hours": "11am to 10pm (Friday, Saturday 11pm)",
         "address": "35 State St.",
         "website": "finneyscrafthouse.com"
@@ -509,7 +509,7 @@ export const data =
       "properties": {
         "title": "Flor de Maiz",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "11am to 9pm (Sunday to Thursday) & until 10pm (Friday & Saturday)",
         "address": "29 E. Cabrillo Blvd",
         "website": "flordemaiz.com"
@@ -527,7 +527,7 @@ export const data =
       "properties": {
         "title": "Holdren's Steak & Seafood",
         "description": "",
-        "style": "(Brunch, Lunch, Dinner)",
+        "style": "Brunch, Lunch, Dinner)",
         "hours": "4pm to 9pm (Monday to Thursday), 11am to 9pm (Friday to Sunday)",
         "address": "512 State Street",
         "website": "holdrens.com/sb/"
@@ -545,7 +545,7 @@ export const data =
       "properties": {
         "title": "Intermezzo by Wine Cask",
         "description": "",
-        "style": "(American, Pizza)",
+        "style": "American, Pizza)",
         "hours": "5pm to 9pm (closed Sunday & Monday)",
         "address": "813 Anacapa St.",
         "website": "intermezzosb.com"
@@ -563,7 +563,7 @@ export const data =
       "properties": {
         "title": "Jane",
         "description": "",
-        "style": "(American)",
+        "style": "American)",
         "hours": "5pm to 9pm (closed Sunday)",
         "address": "1131 State Street",
         "website": "janesb.com"
@@ -581,7 +581,7 @@ export const data =
       "properties": {
         "title": "Kanaloa Seafood & Fish Market",
         "description": "",
-        "style": "(Seafood)",
+        "style": "Seafood)",
         "hours": "11am to 7pm (Sunday) 9am to 3pm",
         "address": "715 Chapala St.",
         "website": "kanaloaseafood.com"
@@ -599,7 +599,7 @@ export const data =
       "properties": {
         "title": "La Paloma Café",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "Wknd Brunch & Dinner",
         "address": "702 Anacapa St.",
         "website": "lapalomasb.com"
@@ -617,7 +617,7 @@ export const data =
       "properties": {
         "title": "The Lark",
         "description": "",
-        "style": "(American)",
+        "style": "American)",
         "hours": "5pm to 9pm (Saturday & Sunday Brunch)",
         "address": "131 Anacapa Street",
         "website": "thelarksb.com"
@@ -635,7 +635,7 @@ export const data =
       "properties": {
         "title": "Loquita",
         "description": "",
-        "style": "(Spanish, Tapas, Seafood)",
+        "style": "Spanish, Tapas, Seafood)",
         "hours": "5pm to 9pm",
         "address": "202 State St.",
         "website": "loquitasb.com"
@@ -653,7 +653,7 @@ export const data =
       "properties": {
         "title": "Meet Up Chinese Cuisine",
         "description": "",
-        "style": "(Chinese, Delivery, Dine in)",
+        "style": "Chinese, Delivery, Dine in)",
         "hours": "11am to 10pm",
         "address": "2251 Las Positas Rd",
         "website": "meetuprestaurant.com"
@@ -671,7 +671,7 @@ export const data =
       "properties": {
         "title": "Milk & Honey Tapas",
         "description": "",
-        "style": "(Gluten Free)",
+        "style": "Gluten Free)",
         "hours": "5pm to 10pm (closed Sunday & Monday)",
         "address": "30 W. Anapamu Street",
         "website": "milknhoneytapas.com"
@@ -689,7 +689,7 @@ export const data =
       "properties": {
         "title": "Oku",
         "description": "",
-        "style": "(Sushi, Asian Fusion)",
+        "style": "Sushi, Asian Fusion)",
         "hours": "4pm to 9pm (Monday to Friday), 12:30pm to 9pm (Saturday & Sunday)",
         "address": "29 E. Cabrillo Blvd",
         "website": "okurestaurant.com"
@@ -707,7 +707,7 @@ export const data =
       "properties": {
         "title": "Olio E Limone",
         "description": "",
-        "style": "(Italian)",
+        "style": "Italian)",
         "hours": "11:30am to 2pm & 5pm to 9pm (closed Monday)",
         "address": "11 W. Victoria Street",
         "website": "olioelimone.com"
@@ -725,7 +725,7 @@ export const data =
       "properties": {
         "title": "Oliver's",
         "description": "",
-        "style": "(Gluten Free, Vegetarian)",
+        "style": "Gluten Free, Vegetarian)",
         "hours": "5pm to 9pm (closed Monday)",
         "address": "1198 Coast Village Road, Montecito",
         "website": "oliversofmontecito.com"
@@ -743,7 +743,7 @@ export const data =
       "properties": {
         "title": "Opal Restaurant and Bar",
         "description": "",
-        "style": "(Steak, Seafood)",
+        "style": "Steak, Seafood)",
         "hours": "5pm to 9pm",
         "address": "1325 State Street",
         "website": "opalrestaurantandbar.com"
@@ -761,7 +761,7 @@ export const data =
       "properties": {
         "title": "The Palace Grill",
         "description": "",
-        "style": "(Cajun, Creole)",
+        "style": "Cajun, Creole)",
         "hours": "5pm to 9pm",
         "address": "8 E. Cota St.",
         "website": "palacegrill.com"
@@ -779,7 +779,7 @@ export const data =
       "properties": {
         "title": "Rare Society Steakhouse",
         "description": "",
-        "style": "(Steak)",
+        "style": "Steak)",
         "hours": "5pm to 9pm (closed Tuesday)",
         "address": "214 State St.",
         "website": "raresociety.com/santa-barbara"
@@ -797,7 +797,7 @@ export const data =
       "properties": {
         "title": "Rodeo Room",
         "description": "",
-        "style": "(American, Lounge)",
+        "style": "American, Lounge)",
         "hours": "5pm to Midnight (closed Monday & Tuesday)",
         "address": "231 W. Montecito",
         "website": "rodeoroom.com"
@@ -815,7 +815,7 @@ export const data =
       "properties": {
         "title": "Rudy's Mexican Food",
         "description": "",
-        "style": "(Breakfast, Lunch, Dinner)",
+        "style": "Breakfast, Lunch, Dinner)",
         "hours": "8am to 10pm",
         "address": "305 W. Montecito Street",
         "website": "rudys-mexican.com"
@@ -833,7 +833,7 @@ export const data =
       "properties": {
         "title": "Rusty's Pizza Parlor",
         "description": "",
-        "style": "(Lunch and Dinner)",
+        "style": "Lunch and Dinner)",
         "hours": "11am to 12am",
         "address": "111 State St.",
         "website": "rustyspizza.com"
@@ -851,7 +851,7 @@ export const data =
       "properties": {
         "title": "Santa Barbara FisHouse",
         "description": "",
-        "style": "(Seafood)",
+        "style": "Seafood)",
         "hours": "11:30am to 9pm",
         "address": "101 E. Cabrillo Blvd",
         "website": "fishousesb.com"
@@ -869,7 +869,7 @@ export const data =
       "properties": {
         "title": "Santa Barbara Shellfish Company",
         "description": "",
-        "style": "(Seafood)",
+        "style": "Seafood)",
         "hours": "11am to 9pm",
         "address": "Stearns Wharf",
         "website": "shellfishco.com"
@@ -887,7 +887,7 @@ export const data =
       "properties": {
         "title": "Santo Mezcal",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "8am to 9pm",
         "address": "119 State St.",
         "website": "santomezcalsb.com"
@@ -905,7 +905,7 @@ export const data =
       "properties": {
         "title": "Satellite Wine Bar",
         "description": "",
-        "style": "(Vegan, Vegetarian)",
+        "style": "Vegan, Vegetarian)",
         "hours": "Noon to 8pm",
         "address": "1117 State St.",
         "website": "satellitesb.com"
@@ -923,7 +923,7 @@ export const data =
       "properties": {
         "title": "Shalhoob's Funk Zone Patio",
         "description": "",
-        "style": "(American, BBQ)",
+        "style": "American, BBQ)",
         "hours": "11am to 8pm (closed Monday)",
         "address": "220 Gray Avenue",
         "website": "shalhoob.com"
@@ -941,7 +941,7 @@ export const data =
       "properties": {
         "title": "Szechuan Restaurant",
         "description": "",
-        "style": "(Vegetarian choices)",
+        "style": "Vegetarian choices)",
         "hours": "11:30am to 2:30pm & 4pm to 9:30pm",
         "address": "1994 Cliff Dr.",
         "website": "szechuanrestaurantsb.com"
@@ -959,7 +959,7 @@ export const data =
       "properties": {
         "title": "Third Window Brewing",
         "description": "",
-        "style": "(Smash Burgers, Pizza, Brewery)",
+        "style": "Smash Burgers, Pizza, Brewery)",
         "hours": "Noon to 8pm",
         "address": "406 E. Haley St.",
         "website": "thirdwindowbrewing.com"
@@ -977,7 +977,7 @@ export const data =
       "properties": {
         "title": "Toma",
         "description": "",
-        "style": "(Italian)",
+        "style": "Italian)",
         "hours": "5pm to 9pm, Friday & Saturday until 10pm",
         "address": "324 W. Cabrillo Blvd",
         "website": "tomarestaurant.com"
@@ -995,7 +995,7 @@ export const data =
       "properties": {
         "title": "Zaytoon",
         "description": "",
-        "style": "(Lebanese, Vegetarian)",
+        "style": "Lebanese, Vegetarian)",
         "hours": "5pm to 9:30pm (closed Monday)",
         "address": "209 E. Canon Perdido Street",
         "website": "zaytoon.com"
@@ -1013,7 +1013,7 @@ export const data =
       "properties": {
         "title": "Anchor Rose",
         "description": "",
-        "style": "(Seafood, Cocktail Bar, ideal for Sunsets)",
+        "style": "Seafood, Cocktail Bar, ideal for Sunsets)",
         "hours": "11:30am to 9:30pm",
         "address": "113 Harbor Way",
         "website": "theanchorrose.com"
@@ -1031,7 +1031,7 @@ export const data =
       "properties": {
         "title": "Apna Indian Kitchen",
         "description": "",
-        "style": "(Gluten Free, Vegetarian)",
+        "style": "Gluten Free, Vegetarian)",
         "hours": "11:30am to 9pm (closed Mon)",
         "address": "718 State Street",
         "website": "apnasb.com"
@@ -1049,7 +1049,7 @@ export const data =
       "properties": {
         "title": "Biergarten in The Funk Zone",
         "description": "",
-        "style": "(Beer Garden)",
+        "style": "Beer Garden)",
         "hours": "11am to 9 pm (Fri & Sat until 11pm)",
         "address": "11 Anacapa St.",
         "website": "sbbiergarten.com",
@@ -1067,7 +1067,7 @@ export const data =
       "properties": {
         "title": "Brass Bear Brewing & Bistro",
         "description": "",
-        "style": "(Funk Zone)",
+        "style": "Funk Zone)",
         "hours": "12pm to 10pm",
         "address": "28 Anacapa St.",
         "website": "brassbearbrewing.com"
@@ -1085,7 +1085,7 @@ export const data =
       "properties": {
         "title": "Broad Street Oyster Company",
         "description": "",
-        "style": "(Seafood)",
+        "style": "Seafood)",
         "hours": "11:30am to 12:30am",
         "address": "418 State St.",
         "website": "broadstreetoyster.com"
@@ -1103,7 +1103,7 @@ export const data =
       "properties": {
         "title": "Convivo @ SB Inn",
         "description": "",
-        "style": "(Italian, Vegan)",
+        "style": "Italian, Vegan)",
         "hours": "7am to 9pm",
         "address": "901 E. Cabrillo Blvd.",
         "website": "convivorestaurant.com"
@@ -1121,7 +1121,7 @@ export const data =
       "properties": {
         "title": "The Daisy",
         "description": "",
-        "style": "(Gluten Free, Vegan, Mediterranean)",
+        "style": "Gluten Free, Vegan, Mediterranean)",
         "hours": "11am to 9pm Wednesday to Saturday, 11am to 2pm Sun & Tues, (closed Monday)",
         "address": "1221 State St.",
         "website": "thedaisyrestaurant.com"
@@ -1139,7 +1139,7 @@ export const data =
       "properties": {
         "title": "Empty Bowl @ Public Market",
         "description": "",
-        "style": "(Gourmet Noodle Bar)",
+        "style": "Gourmet Noodle Bar)",
         "hours": "11am to 9pm",
         "address": "38 W. Victoria St.",
         "website": "sbpublicmarket.com"
@@ -1157,7 +1157,7 @@ export const data =
       "properties": {
         "title": "Fala Bar @ Public Market",
         "description": "",
-        "style": "(Gluten Free, Vegan)",
+        "style": "Gluten Free, Vegan)",
         "hours": "11:30am to 9pm",
         "address": "38 W. Victoria Street",
         "website": "falabar.com"
@@ -1175,7 +1175,7 @@ export const data =
       "properties": {
         "title": "Himalayan Kitchen",
         "description": "",
-        "style": "(Nepalese, Vegetarian, Paleo)",
+        "style": "Nepalese, Vegetarian, Paleo)",
         "hours": "11:30am to 10pm",
         "address": "431 State St.",
         "website": "himalayankitchensantabarbara.com"
@@ -1193,7 +1193,7 @@ export const data =
       "properties": {
         "title": "Joe's Café",
         "description": "",
-        "style": "(American, Seafood)",
+        "style": "American, Seafood)",
         "hours": "7:30am to 10pm",
         "address": "536 State St.",
         "website": "joescafesb.com"
@@ -1211,7 +1211,7 @@ export const data =
       "properties": {
         "title": "Kyle's Kitchen",
         "description": "",
-        "style": "(American, Burgers)",
+        "style": "American, Burgers)",
         "hours": "11am to 9pm",
         "address": "791 Chapala Street",
         "website": "kyleskitchen.com"
@@ -1229,7 +1229,7 @@ export const data =
       "properties": {
         "title": "Lilly's Tacos",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "10am to 9pm (closed Tuesday)",
         "address": "310 Chapala St.",
         "website": "lillystacos.com"
@@ -1247,7 +1247,7 @@ export const data =
       "properties": {
         "title": "Los Agaves",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "11am to 9pm",
         "address": "600 N. Milpas Street",
         "website": "los-agaves.com"
@@ -1265,7 +1265,7 @@ export const data =
       "properties": {
         "title": "Los Arroyos",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "11am to 9pm",
         "address": "14 W. Figueroa Street",
         "website": "losarroyos.net"
@@ -1283,7 +1283,7 @@ export const data =
       "properties": {
         "title": "Lucky Penny",
         "description": "",
-        "style": "(Wood Fired Pizza, Vegan, Gluten Free)",
+        "style": "Wood Fired Pizza, Vegan, Gluten Free)",
         "hours": "11am to 9pm",
         "address": "127 Anacapa Street",
         "website": "luckypennysb.com"
@@ -1301,7 +1301,7 @@ export const data =
       "properties": {
         "title": "Mesa Verde",
         "description": "",
-        "style": "(Vegan, Mediterranean)",
+        "style": "Vegan, Mediterranean)",
         "hours": "11am to 9pm (closed Monday)",
         "address": "1919 Cliff Drive",
         "website": "mesaverderestaurant.com"
@@ -1319,7 +1319,7 @@ export const data =
       "properties": {
         "title": "Mony's Mexican Food",
         "description": "",
-        "style": "(Mexican)",
+        "style": "Mexican)",
         "hours": "10:30am to 3:30pm (Dinner Th Fr Sat, closed Sun)",
         "address": "217 Anacapa St.",
         "website": "monyssb.com"
@@ -1337,7 +1337,7 @@ export const data =
       "properties": {
         "title": "Reunion Kitchen + Drink",
         "description": "",
-        "style": "(American)",
+        "style": "American)",
         "hours": "11am to 9pm",
         "address": "1118 E. Cabrillo Blvd",
         "website": "reunionkitchen.net/santa-barbara/"
@@ -1355,7 +1355,7 @@ export const data =
       "properties": {
         "title": "Sama Sama",
         "description": "",
-        "style": "(Gluten Free, Asian Fusion, Chicken Wings)",
+        "style": "Gluten Free, Asian Fusion, Chicken Wings)",
         "hours": "12pm to 8:30pm (closed Mon)",
         "address": "1208 State St.",
         "website": "samasamakitchen.com"
@@ -1373,7 +1373,7 @@ export const data =
       "properties": {
         "title": "Secret Bao",
         "description": "",
-        "style": "(Gluten Free, Modern Asian)",
+        "style": "Gluten Free, Modern Asian)",
         "hours": "Lunch & Dinner (closed Monday & Tuesday)",
         "address": "1201 Anacapa St.",
         "website": "secretbaosb.com\t"
@@ -1391,7 +1391,7 @@ export const data =
       "properties": {
         "title": "Validation Ale",
         "description": "",
-        "style": "(Funk Zone)",
+        "style": "Funk Zone)",
         "hours": "Lunch & Dinner (closed Tuesday)",
         "address": "102 E. Yanonali St.",
         "website": "validationale.com\t   "

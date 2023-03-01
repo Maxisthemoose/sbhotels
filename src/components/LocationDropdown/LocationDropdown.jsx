@@ -16,9 +16,7 @@ export default class LocationDropdown extends React.Component {
    * @param {{ type: "Restaurants" | "Attractions" | "Landmarks"}} props
    */
   constructor(props) {
-    // this.props = props;
     super(props);
-
   }
 
   state = {
@@ -78,10 +76,14 @@ export default class LocationDropdown extends React.Component {
                         this.props.directions.setDestination(location.properties.address + ", Santa Barbara, California");
                       }} className="directions-button text">Directions</Button>
 
-                      <Button onClick={() => this.setState(state => ({
-                        ...state,
-                        popupData: location,
-                      }))} className="info-button text">Info</Button>
+                      <Button onClick={() => {
+                        this.setState(state => ({
+                          ...state,
+                          popupData: location,
+                        }));
+
+                        document.getElementsByTagName("body").item(0).style.overflow = "hidden";
+                      }} className="info-button text">Info</Button>
                     </div>
                   ))
                 }
@@ -92,7 +94,7 @@ export default class LocationDropdown extends React.Component {
 
         {
           this.state.popupData !== null ?
-            <InfoPopup data={this.state.popupData} />
+            <InfoPopup data={this.state.popupData} close={this.setState.bind(this)} />
             : <></>
         }
 
