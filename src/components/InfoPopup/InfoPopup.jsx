@@ -44,9 +44,11 @@ export default class InfoPopup extends React.Component {
             <div className="content-block">
               <br />
 
-              <div className="style">
-                <p>{this.props.data.properties.title} includes; <strong>{this.props.data.properties.style.split(")").join("")} Foods</strong></p>
-              </div>
+              {this.props.data.properties.style !== undefined ?
+                <div className="style">
+                  <p>{this.props.data.properties.title} includes; <strong>{this.props.data.properties.style.split(")").join("")} Foods</strong></p>
+                </div>
+                : <></>}
 
               <div className="hours">
                 <p>{this.props.data.properties.hours}</p>

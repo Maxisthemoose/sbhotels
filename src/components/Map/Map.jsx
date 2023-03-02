@@ -39,7 +39,7 @@ export default class Map extends React.Component {
       map.on("click", (ev) => {
 
         const features = map.queryRenderedFeatures(ev.point, {
-          layers: ["brisas-restaurants"],
+          layers: ["brisas-restaurants", "brisas-attractions", "brisas-group"],
         });
         if (features.length < 1) return;
         const feature = features[0];
@@ -63,11 +63,23 @@ export default class Map extends React.Component {
         website.href = `https://${feature.properties.website}`;
         website.target = "_blank";
 
-        popupDiv.appendChild(title);
-        popupDiv.appendChild(style);
-        popupDiv.appendChild(hours);
-        popupDiv.appendChild(address);
-        popupDiv.appendChild(website);
+
+
+        if (feature.properties.title !== undefined)
+          popupDiv.appendChild(title);
+
+        if (feature.properties.style !== undefined)
+          popupDiv.appendChild(style);
+
+        if (feature.properties.hours !== undefined)
+          popupDiv.appendChild(hours);
+
+        if (feature.properties.address !== undefined)
+          popupDiv.appendChild(address);
+
+        if (feature.properties.website !== undefined)
+          popupDiv.appendChild(website);
+
         popupDiv.appendChild(document.createElement("br"));
 
         const directionDiv = document.createElement("a");

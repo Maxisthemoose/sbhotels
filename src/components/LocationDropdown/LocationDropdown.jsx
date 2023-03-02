@@ -2,7 +2,7 @@ import React from "react";
 import "./LocationDropdown.css";
 import { data as Restaurants } from "../../landmarks/restaurants";
 import { data as Attractions } from "../../landmarks/attractions";
-import { data as Landmarks } from "../../landmarks/landmarks";
+import { data as Activities } from "../../landmarks/activities";
 
 import { ReactComponent as DropdownArrow } from "../../icons/dropdown.svg";
 import { Button } from "react-bootstrap";
@@ -13,14 +13,14 @@ export default class LocationDropdown extends React.Component {
 
   /**
    * 
-   * @param {{ type: "Restaurants" | "Attractions" | "Landmarks"}} props
+   * @param {{ type: "Restaurants" | "Attractions" | "Activities"}} props
    */
   constructor(props) {
     super(props);
   }
 
   state = {
-    data: this.props.type === "Restaurants" ? Restaurants : this.props.type === "Attractions" ? Attractions : Landmarks,
+    data: this.props.type === "Restaurants" ? Restaurants : this.props.type === "Attractions" ? Attractions : Activities,
     open: false,
     text_filter: "",
     popupData: null,

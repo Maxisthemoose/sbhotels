@@ -30,7 +30,7 @@ class App extends React.Component {
           </div>
           <div className="attractions-dropdown-container">
             {
-              ["Restaurants", "Attractions", "Landmarks"].map((value, i) => (
+              ["Restaurants", "Attractions", "Activities"].map((value, i) => (
                 <LocationDropdown type={value} directions={this.state.directions} />
               ))
             }
